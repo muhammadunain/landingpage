@@ -1,18 +1,11 @@
 'use client'
 import { useEffect, useState } from 'react';
-import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Contact', href: '#contact' },
-  ];
+
 useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -33,13 +26,13 @@ useEffect(() => {
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
-          <Link href="/features" className="text-white/80 hover:text-white transition-colors">
+          <Link href="/#" className="text-white/80 hover:text-white transition-colors">
             Features
           </Link>
-          <Link href="/for-you" className="text-white/80 hover:text-white transition-colors">
+          <Link href="/#" className="text-white/80 hover:text-white transition-colors">
             For You
           </Link>
-          <Link href="/contact" className="text-white/80 hover:text-white transition-colors">
+          <Link href="/#" className="text-white/80 hover:text-white transition-colors">
             Contact
           </Link>
         </div>
