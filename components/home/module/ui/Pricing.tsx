@@ -138,7 +138,7 @@ const Pricing = () => {
                 <div className="mb-6">
                   <div className="flex items-end">
                     {/* <span className="text-4xl font-bold text-white">${annual ? plan.price.annually : plan.price.monthly}</span> */}
-                    <span className="text-3xl font-bold text-white">Comming Soon</span>
+                    <span className="text-3xl font-bold text-white">Coming Soon</span>
                     <span className="text-gray-400 ml-2 mb-1">/month</span>
                   </div>
                   {annual && (
