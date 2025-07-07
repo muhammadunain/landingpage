@@ -28,8 +28,8 @@ useEffect(() => {
               <a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
             </div>
             <Link href={"https://locentrix.hellorovamo.com/"} target='_blank'>
-            <button className="bg-gradient-to-r from-red-500 to-orange-500 px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:shadow-red-500/25 transition-all duration-300 transform hover:scale-105">
-              Get Started
+            <button className="bg-gradient-to-r from-red-500  to-orange-500 px-6 py-2 rounded-full text-white font-semibold hover:shadow-lg hover:shadow-red-500/25 transition-all duration-300 transform hover:scale-105">
+           View Demo
             </button>
             </Link>
           </div>
