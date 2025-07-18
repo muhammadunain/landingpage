@@ -127,7 +127,7 @@ const Newsletter = () => {
                 <button
                   type="submit"
                   disabled={status === 'loading' || status === 'success'}
-                  className={`w-full group relative bg-gradient-to-r from-red-500 to-orange-500 px-8 py-4 rounded-lg font-semibold text-lg overflow-hidden transition-all duration-300 transform hover:scale-[1.02] ${
+                  className={`w-full group relative bg-gradient-to-r from-red-500 to-orange-500 px-8 py-4 rounded-lg font-semibold text-lg overflow-hidden transition-all cursor-pointer duration-300 transform hover:scale-[1.02] ${
                     status === 'loading' ? 'opacity-80' : ''
                   } ${status === 'success' ? 'bg-green-500' : ''}`}
                 >

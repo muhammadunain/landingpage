@@ -64,8 +64,8 @@ const ForYouSection = () => {
                 {player.description}
               </p>
               
-              <div className="mt-8 pt-4 border-t border-gray-800 group-hover:border-orange-500/20 transition-colors duration-300">
-                <button className="text-red-400 font-semibold flex items-center group-hover:text-red-300 transition-colors duration-300">
+              <div className="mt-8 pt-4 border-t  border-gray-800 group-hover:border-orange-500/20 transition-colors duration-300">
+                <button className="text-red-400 font-semibold flex items-center group-hover:text-red-300  transition-colors cursor-pointer duration-300">
                   Learn More
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-2 transition-transform duration-300" />
                 </button>

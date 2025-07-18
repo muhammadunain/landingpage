@@ -49,7 +49,7 @@ const StartTrial = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="group relative bg-gradient-to-r from-red-500 to-orange-500 px-8 py-4 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 transform hover:scale-105">
+            <button className="group cursor-pointer text-white relative bg-gradient-to-r from-red-500 to-orange-500 px-8 py-4 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 transform hover:scale-105">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative flex items-center">
                 Start Your Free Trial
@@ -58,7 +58,7 @@ const StartTrial = () => {
               <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 animate-pulse rounded-full"></div>
             </button>
             
-            <button className="group flex items-center px-8 py-4 border-2 text-white border-gray-600 rounded-full font-semibold text-lg hover:border-red-500 hover:bg-red-500/10 backdrop-blur-sm transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20">
+            <button className="group flex cursor-pointer items-center px-8 py-4 border-2 text-white border-gray-600 rounded-full font-semibold text-lg hover:border-red-500 hover:bg-red-500/10 backdrop-blur-sm transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20">
               <div className="w-10 h-10 bg-gradient-to-r from-red-500 to-orange-500 rounded-full flex items-center justify-center mr-3 group-hover:scale-110 transition-transform">
                 <Play className="w-4 h-4 text-white ml-0.5" />
               </div>

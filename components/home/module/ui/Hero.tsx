@@ -69,7 +69,7 @@ const HeroSection = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
                <Link  href={"https://locentrix.hellorovamo.com/"} target='_blank'>
-          <button className="group relative bg-gradient-to-r from-red-500 to-orange-500 px-8 py-4 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 transform hover:scale-105">
+          <button className="group cursor-pointer relative bg-gradient-to-r from-red-500 to-orange-500 px-8 py-4 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 transform hover:scale-105">
             <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative flex items-center">
               Start Matching Today
@@ -78,7 +78,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 animate-pulse rounded-full"></div>
           </button>
               </Link>
-          <button className="group flex items-center px-8 py-4 border-2 border-gray-600 rounded-full font-semibold text-lg hover:border-red-500 hover:bg-red-500/10 backdrop-blur-sm transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20">
+          <button className="group flex cursor-pointer items-center px-8 py-4 border-2 border-gray-600 rounded-full font-semibold text-lg hover:border-red-500 hover:bg-red-500/10 backdrop-blur-sm transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20">
             <div className="w-10 h-10 bg-gradient-to-r from-red-500 to-orange-500 rounded-full flex items-center justify-center mr-3 group-hover:scale-110 transition-transform">
               <Play className="w-4 h-4 text-white ml-0.5" />
             </div>
@@ -88,15 +88,15 @@ const HeroSection = () => {
         
         {/* Feature Tags */}
         <div className="flex flex-wrap items-center justify-center gap-8 text-sm">
-          <div className="flex items-center bg-gray-900/50 px-6 py-3 rounded-full border border-gray-700/50 backdrop-blur-sm hover:border-red-500/50 transition-colors group">
+          <div className="flex items-center bg-gray-900/50 px-6 py-3 rounded-full border border-gray-700/50 cursor-pointer backdrop-blur-sm hover:border-red-500/50 transition-colors group">
             <Target className="w-5 h-5 mr-2 text-red-500 group-hover:animate-spin" />
             <span className="text-gray-300">Smart Matching</span>
           </div>
-          <div className="flex items-center bg-gray-900/50 px-6 py-3 rounded-full border border-gray-700/50 backdrop-blur-sm hover:border-orange-500/50 transition-colors group">
+          <div className="flex items-center bg-gray-900/50 px-6 py-3 rounded-full border border-gray-700/50 cursor-pointer backdrop-blur-sm hover:border-orange-500/50 transition-colors group">
             <BarChart3 className="w-5 h-5 mr-2 text-orange-500 group-hover:animate-bounce" />
             <span className="text-gray-300">Location Intelligence</span>
           </div>
-          <div className="flex items-center bg-gray-900/50 px-6 py-3 rounded-full border border-gray-700/50 backdrop-blur-sm hover:border-red-500/50 transition-colors group">
+          <div className="flex items-center bg-gray-900/50 px-6 py-3 rounded-full border border-gray-700/50 cursor-pointer backdrop-blur-sm hover:border-red-500/50 transition-colors group">
             <Shield className="w-5 h-5 mr-2 text-red-500 group-hover:animate-pulse" />
             <span className="text-gray-300">AI Powered</span>
           </div>
